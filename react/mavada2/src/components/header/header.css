@@ -1,0 +1,12 @@
+.header {
+    color: aqua;
+    --color:purple;
+}
+
+.header p{
+    color:var(--color);
+}
+
+.header h1{
+    color:var(--color);
+}

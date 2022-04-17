@@ -1,0 +1,11 @@
+.header{
+  
+  --color:rgb(0, 255, 106);
+   color:var(--color)
+   
+ 
+}
+h1{
+  text-align: center;
+}
+ 

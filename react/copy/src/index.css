@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  border:  5px solid red;
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.app{
+  border: 2px solid blue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main,footer,header{
+  border: 2px solid red;
+}
+ 
+.footer-p{
+  background-color: brown;
+}

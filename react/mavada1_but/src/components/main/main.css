@@ -1,0 +1,7 @@
+ .main{
+     width: min(80%,600px);
+     margin:  0 auto;
+     display: grid;
+     place-items:center;
+ }
+ 

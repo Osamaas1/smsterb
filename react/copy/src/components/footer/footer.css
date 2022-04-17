@@ -1,0 +1,12 @@
+footer{
+  color: blue;
+  background-color: rgb(36, 127, 143);
+  font-size: 2rem;
+  padding: 2em;
+  text-align: center;
+}
+
+.footer p{
+  font-size:  3rem;
+}
+ 

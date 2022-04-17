@@ -1,0 +1,20 @@
+section{
+  text-align: center;
+  width: 70%;max-width: 900px; 
+  margin: 0 auto;
+ color: blue;
+ font-size: 1.3em;
+}
+p{
+   margin-bottom: 1em;
+  max-width: 600px;
+  margin-left: 7em;
+  text-align: left;
+  color: black;
+}
+footer{
+  margin-top: 5em;
+}
+h1{
+  margin-bottom: 1em;
+}

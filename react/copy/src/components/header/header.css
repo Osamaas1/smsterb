@@ -1,0 +1,10 @@
+.header{
+  background-color: aqua;
+  --color:rgb(0, 255, 106);
+   color:var(--color)
+ 
+}
+.header P{
+  color:var(--color)
+}
+ 

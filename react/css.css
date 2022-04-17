@@ -1,0 +1,100 @@
+*,
+*::after,
+**before{
+box-sizing:border-box;
+ 
+}
+
+p {
+display:inline-block;
+display:block;/*לכל אחד יש לא בלוק אם יש לנו שני אחד יד השני נעשה זה מוספ בלוק ביוריד שורה*/
+  text-align: center; /*left-center-right*/ /*במצע הדף*/
+  font-family: "Courier New", Courier, monospace; /*משנה סוג הכתיבה*/
+  font-size: 5em; /*גודל המילה*/
+  font-style: /*סוג של כתיבה*/ a;
+ font-weight: /*מגדילה הכתיבה */ a;
+  text-transform: uppercase; /* uppercase -מגדילה התוים-lowercase מקטינה התוים -capitalize- התו הרשון רק הגדול*/
+  text-decoration: solid; /*סוגים הכתיבה*/
+  text-indent: 5px; /*השורה הרשונה מזיזה*/
+  letter-spacing: 2px; /*שיטח בין התוים*/
+  line-height: 5px; /*שיטח ביו השרות*/
+  word-spacing: 5px; /*שיטח בין המילים*/
+  text-shadow: 2px 2px; /*ה  خيال لكلمه הרשון ימין ושמולה השני למעלה למטה*/
+  border: 2px solid red; /*P מלבין אדום על */
+  border-style: dotted; /*dotted- מלבן עם נגדות*/
+  border-style: dashed; /*dashed-  מלבן עם נגדות פחות*/
+  border-style: solid; /*solid- מלבן כוו שחור*/
+  border-style: double; /*dotted- מלבן שני כווים*/
+  border-width: 2px; /*מגדיל הרוחב-רק אם יש סתאיל נשתמש בזה*/
+border-radius:100px; /*מחליפה סוג המלבין למעגל*/
+  /*יש עוד הרבי ךי בורדיר מסוגים*/
+  height: 70%; /*אורך לדוגה מלבן*/
+  width: 5%; /*רוחב*/
+max-width:800px;/*גודל מקסימאלי*/
+  margin: 25px /*למעלה-top-*/ 25px /*Right*/ 25px /*למטה-botton*/ 25px /*left*/; /*P,H1.. מפעילה שטח בין אלמינתים לדגמה */
+  padding: 80%; /*בין כתיבה-Marginגודל המלבן-כמו - */
+}
+p:nth-of-type(1){/* הרשון מי הדף p */
+}
+a:link {
+  /*لم نكبس عليه לא לחצנו על זה*/
+}
+
+
+a:visited {
+  /*تم زيارته לחצו על זה במחליפה צבע*/
+}
+a:hover {
+  /*بتغير لون اذا بس حطينا מחליפה צבע */
+}
+
+/*FLEX*/
+body {
+  display: flex; /*אחד יד השני*/
+	display:inline-flex;
+display:inline-block;
+width : calc (100%  / 3 );
+flex-wrap:wrap;
+align-items:center;
+position :absolute;
+ position:relative;
+  flex-direction: column; /*אחד מעל השיני*/
+  flex-wrap: wrap; /*עושה סידר*/
+  justify-content: center; /*بنص*/
+  justify-content: flex-start; /*שמולה מתחיל*/
+  justify-content: flex-end; /*ימין מתחיל*/
+  justify-content: space-evenly; /*שטח בין אחד לאחד*/
+writing-mode:vertical-lr;/* بصير بطول 1 بعدين 2..   (1.2.3)    הופכת התוכן  */
+}
+.item:;first-child{
+flex-grow:5;/*מגדילה הרשון */
+}
+/*GRID*/
+body {
+  display: grid;
+grid-gap:;
+  gap: 2rem 1rem; /*הרשון בין השרות השיני בין עמודות      
+grid-template-rows
+grid-template-columns : 1fr 1fr 1fr;/*מגדירה עמודות*/
+grid-template-columns :repeat(4,1fr);/*ארבע עמודות בגודל זה*/
+grid-template-areas:none;
+grid-row-gap:1rem ; /*   יש רווח אחד מעל השיני*/
+grid-column-gap :1REM;/*עושה עמודות אבל שתעבוד TEMPLATE-CO..*/
+justify-items:center;/*נמצא במקז*/
+align-items:center;
+justify-content
+align-content
+grid-auto-rows    
+grid-auto-columns 
+grid-auto-flow
+grid-row-start
+grid-row-end
+grid-column-start
+grid-column:spen 2;/*במקום שני עמודות*/
+grid-column-end
+justify-self
+align-self
+order
+
+                               
+}

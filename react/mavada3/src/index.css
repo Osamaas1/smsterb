@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.app{
+    border: 2px solid blue;
+    min-height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+}
+main{
+    background:lightblue;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr
+    );
+}
+/* or to bring the footer down
+footer{
+    margin-top: auto;
+}
+*/
+.footer-p{
+    background-color: lightgreen;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+h2,p{
+    text-align: center;
+}
